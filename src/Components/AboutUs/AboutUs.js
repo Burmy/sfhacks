@@ -17,6 +17,7 @@ import DenisProfileImage from "../AboutUs/About-imgs/Denis.png";
 import aboutPicture from "../AboutUs/About-imgs/about-pic.png";
 import teamPic from "../AboutUs/About-imgs/about-team-pic.png";
 
+import "../AboutUs/AboutUs.css";
 
 const AboutUs = () => {
     const profiles = [
@@ -74,7 +75,7 @@ const AboutUs = () => {
         }
     ];
     return (
-        <div className="parentContainer-1" style={{ paddingBottom: "-600" }}>
+        <div className="parentContainer-1">
             <div
                 className="container-1 background-img-1 "
 
@@ -83,7 +84,6 @@ const AboutUs = () => {
                     className="heading-1"
                     style={{
                         textAlign: "center",
-                        marginTop: "-60px",
                         color: "#FFFFFF"
                     }}
                 >
