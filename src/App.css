@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+.logo {
+  width: auto;
+  height: 450px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:link {
+  color: #512783;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:visited {
+  color: #512783;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* a:hover {
+  color: #73529b;
+} */
+
+a:active {
+  color: #512783;
+}
+
+a:hover {
+  cursor: pointer;
+  /* -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; */
+}
+
+.heading-1 {
+  font: italic normal bold 60px/77px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.heading-2 {
+  font: italic normal bold 50px/61px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.heading-3 {
+  font: italic normal bold 40px/60px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.reg-1 {
+  font: normal normal normal 30px/60px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.reg-2 {
+  font: normal normal normal 24px/38px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.parentContainer-1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.mainContainer-1 {
+  padding: 50px;
+  padding-top: 270px;
+  padding-bottom: 320px;
+  margin-top: -300px;
+  max-width: 3000px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.background-img-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-shadow {
+  /* box-shadow: 5px 5px 5px #8b2eff; */
+  background: transparent 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 40px #8b2effb2;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainer-1 {
+    padding: 20px;
+    padding-top: 250px;
+    padding-bottom: 300px;
+    margin-top: -300px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 950px) {
+  .logo {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    height: 300px;
+  }
+  .div-shadow {
+    box-shadow: none;
   }
 }

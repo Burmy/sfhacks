@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+// import LandingPage_temp from "./screens/LandingPage/index";
+import LandingSection from "./screens/LandingSection";
+import AboutSection from "./screens/AboutSection";
+import EventsSection from "./screens/EventsSection";
+
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import SponsorsSection from "./screens/SponsorsSection";
+import FAQSection from "./screens/FAQSection";
+import TracksSection from "./screens/TracksSection";
+import KeynoteSpeakers from "./screens/KeynoteSpeakers";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <LandingSection />
+      <div style={{ paddingBottom: 200 }} />
+      <TracksSection />
+      <KeynoteSpeakers />
+      <FAQSection />
+      <SponsorsSection />
+      <AboutSection />
+      {/* <EventsSection /> */}
+      <Footer />
     </div>
   );
 }
