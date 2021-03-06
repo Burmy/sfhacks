@@ -5,18 +5,9 @@
     display: flex;
     justify-content: flex-end;
     color: #F7CA17;
-    position: fixed;
+    position: inherit;
 }
 
-@media only screen and (max-device-width: 1500px) {
-	.bar{
-		width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    color: #F7CA17;
-    position: inherit;
-	  }
-  }
 
 .logo{
   width: 100%;

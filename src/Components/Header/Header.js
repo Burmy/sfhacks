@@ -10,32 +10,39 @@ const Header = () => {
     mailgo();
 
     return (
-        <div className="center header" id="top">
+        <div className="header" id="top">
             <div className="header-box">
-                <h2>Welcome to</h2>
-                <div className="title">
+                <div className="hero-1">
+                    <h2>Welcome to</h2>
+                    <div className="title">
 
-                    <span className="block"></span>
-                    <h1>SF Hacks<span></span></h1>
+                        <span className="block"></span>
+                        <h1>SF HACKS<span></span></h1>
+                    </div>
+                    <h2>San Francisco's largest collegiate hackathon.</h2>
+                    <ul className="contacts">
+                        <p className="line"></p>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Burmy">
+                            <Icon icon={Git} className="icon1" />
+                        </a>
+                        <li className="lnk">·</li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/burmy/">
+                            <Icon icon={Link} className="icon2" />
+                        </a>
+                        <li className="lnk">·</li>
+                        <a class="dark" href="mailto:Anmolburmy145@gmail.com">
+                            <Icon icon={Mail} className="icon3" />
+                        </a>
+                        <p className="line"></p>
+                    </ul>
                 </div>
-                <h2>San Francisco's largest collegiate hackathon.</h2>
-                <ul className="contacts">
-                    <p className="line"></p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Burmy">
-                        <Icon icon={Git} className="icon1" />
-                    </a>
-                    <li className="lnk">·</li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/burmy/">
-                        <Icon icon={Link} className="icon2" />
-                    </a>
-                    <li className="lnk">·</li>
-                    <a class="dark" href="mailto:Anmolburmy145@gmail.com">
-                        <Icon icon={Mail} className="icon3" />
-                    </a>
-                    <p className="line"></p>
-                </ul>
-            </div>
 
+                <div classname="hero-2">
+                    <div className="hero-image">
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }

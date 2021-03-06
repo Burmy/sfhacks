@@ -1,9 +1,12 @@
 
 import Header from './Components/Header/Header'
-import Projects from './Components/Projects/Projects'
+import Track from './Components/Track/Track'
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
+import FAQ from './Components/FAQ/FAQ'
+import Sponsors from './Components/Sponsors/Sponsors'
+import AboutUs from './Components/AboutUs/AboutUs'
 import './App.css';
 
 function App() {
@@ -12,7 +15,10 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Projects />
+      <Track />
+      <FAQ />
+      <Sponsors />
+      <AboutUs />
       <Footer />
     </div>
   );

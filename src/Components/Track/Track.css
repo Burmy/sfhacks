@@ -1,0 +1,123 @@
+.project-box {
+	margin-top: 80px;
+	margin-bottom: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mp{
+  margin: 60px;
+  font-size: 36px;
+  text-decoration: underline;
+  text-decoration-color: #F7CA17;
+  text-decoration-thickness: 3.5px;
+  margin-bottom: 80px;
+}
+
+.project-card {
+  border-radius: 6px;
+  margin-bottom: 100px;
+  display: inline-block;
+  width: 80%;
+  height: 420px; 
+  display: flex;
+  align-self: center;
+}
+
+.project-image{
+  width: 45%;
+}
+
+@media only screen and (max-device-width: 750px) {
+	.project-image{
+  width: 100%;
+  opacity: 50%;
+  z-index: -1;
+	}
+}
+
+.project-data{
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
+  margin-left: -80px;
+}
+
+.project-data-opp{
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
+  margin-right: -80px;
+}
+
+
+
+.img-wildifre{
+  background: url(/src/Images/Online_education_SVG.svg);
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: 100% 100%;
+  width: 450px;
+  height: 450px;
+  
+}
+.img-crytpo{
+  background: url(/src/Images/Chat_SVG.svg);
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: 100% 100%;
+  width: 450px;
+  height: 450px;
+}
+.img-portfolio{
+  background: url(/src/Images/fitness_SVG.svg);
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: 100% 100%;
+  width: 450px;
+  height: 450px;
+}
+.img-face{
+  background: url(/src/Images/City_SVG.svg);
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: 100% 100%;
+  width: 450px;
+  height: 450px;
+}
+
+.name{
+  font-size: 30px;
+  margin-bottom: -12px;
+  text-align: center;
+}
+.name-opp{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: -12px;
+}
+.info{
+  background-color: #3b3a3a48;
+  padding: 23px;
+  box-shadow:0 7px 30px -10px rgb(0, 0, 0);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.info-opp{
+  background-color: #3b3a3a48;
+  padding: 23px;
+  box-shadow:   0 7px 30px -10px rgb(0, 0, 0); 
+  border-radius: 6px;
+  text-align: center;
+}
