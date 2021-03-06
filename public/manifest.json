@@ -1,6 +1,6 @@
 {
-  "short_name": "SF Hacks App",
-  "name": "SF Hacks App",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,31 +1,18 @@
-import React from "react";
-import "./App.css";
 
-// import LandingPage_temp from "./screens/LandingPage/index";
-import LandingSection from "./screens/LandingSection";
-import AboutSection from "./screens/AboutSection";
-import EventsSection from "./screens/EventsSection";
-
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import SponsorsSection from "./screens/SponsorsSection";
-import FAQSection from "./screens/FAQSection";
-import TracksSection from "./screens/TracksSection";
-import KeynoteSpeakers from "./screens/KeynoteSpeakers";
+import Header from './Components/Header/Header'
+import Projects from './Components/Projects/Projects'
+import Navbar from './Components/Navbar/Navbar'
+import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
+import './App.css';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <LandingSection />
-      <div style={{ paddingBottom: 200 }} />
-      <TracksSection />
-      <KeynoteSpeakers />
-      <FAQSection />
-      <SponsorsSection />
-      <AboutSection />
-      {/* <EventsSection /> */}
+      <Header />
+      <About />
+      <Projects />
       <Footer />
     </div>
   );
