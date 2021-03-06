@@ -12,13 +12,13 @@ const Header = () => {
     return (
         <div className="center header" id="top">
             <div className="header-box">
-                <h2>Hi, my name is</h2>
+                <h2>Welcome to</h2>
                 <div className="title">
 
                     <span className="block"></span>
-                    <h1>Anmol Burmy<span></span></h1>
+                    <h1>SF Hacks<span></span></h1>
                 </div>
-                <h2>A develepor in training.</h2>
+                <h2>San Francisco's largest collegiate hackathon.</h2>
                 <ul className="contacts">
                     <p className="line"></p>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Burmy">
