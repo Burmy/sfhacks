@@ -23,6 +23,7 @@ a:hover, a:active { text-decoration: none; }
   display: flex;
   width: 100px;
   padding-left: 20px;
+  text-decoration: none; 
   
 }
 .arrow-up {
@@ -150,7 +151,7 @@ a:hover, a:active { text-decoration: none; }
   }
 }
 
-a{
+.port-text{
   color: #F7CA17;
   text-decoration: underline;
 }

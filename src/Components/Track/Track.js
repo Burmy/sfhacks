@@ -8,7 +8,7 @@ const Track = () => {
                 <h2 className="center mp"><p className="line-title"></p>TRACKS<p className="line-title"></p></h2>
                 <div className="center project-card ">
                     <div className="center project-image">
-                        <div className="img-wildifre">
+                        <div className="img-education">
                         </div>
                     </div>
                     <div className="center project-data">
@@ -18,14 +18,14 @@ const Track = () => {
                 </div>
 
 
-                <div className="center proßject-card ">
+                <div className="center project-card ">
 
                     <div className="center project-data-opp">
                         <h2 className="name-opp">COMMUNICATION</h2>
                         <p className="info-opp">From families across the world to friends across a state, we are constricted to communication via technology. We want our hackers to find hacks to help rebuild the bridge to Communication.</p>
                     </div>
                     <div className="center project-image">
-                        <div className="img-crytpo">
+                        <div className="img-comm">
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Track = () => {
 
                 <div className="center project-card ">
                     <div className="center project-image">
-                        <div className="img-portfolio">
+                        <div className="img-health">
                         </div>
                     </div>
                     <div className="center project-data">
@@ -52,7 +52,7 @@ const Track = () => {
 
                     </div>
                     <div className="center project-image">
-                        <div className="img-face">
+                        <div className="img-home">
                         </div>
                     </div>
                 </div>

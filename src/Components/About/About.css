@@ -15,7 +15,7 @@
     margin-bottom: -15px;
 }
 
-  /* @media only screen and (max-device-width: 950px) {
+  @media only screen and (max-device-width: 950px) {
 	.about-box{
 	position: relative;
     display: flex;
@@ -26,7 +26,7 @@
     font-size: 18px;
     text-align: center;
     width: 900px;
-    background-color: #3b3a3a46;
+    background-color: #88858546;
     border-radius: 10px;
     z-index: -1;
     margin-top: 20px;
@@ -34,7 +34,7 @@
     margin-right: 15px;
     margin-bottom: -50px;
 	}
-} */
+}
 
 .hl{
     color:#F7CA17;

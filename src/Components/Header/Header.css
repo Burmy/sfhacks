@@ -65,7 +65,7 @@ h1 {
 	 position: relative;
 }
 
-/* @media only screen and (max-device-width: 550px) {
+@media only screen and (max-device-width: 550px) {
 	.header-box .title h1{
 		color: #EFEFEF;
 		font-size: 45px;
@@ -83,7 +83,7 @@ h1 {
 		margin: 15px;
 		font-size: 22px;
 	}
-  } */
+  }
 
 
 .header-box .title h1 span {
@@ -277,6 +277,18 @@ h1 {
 	  display: none;
 	  }
 	}
+
+@media only screen and (max-device-width: 460px) {
+	.gradient-1{
+	display: none;
+	}
+}
+
+@media only screen and (max-device-width: 460px) {
+	.gradient-2{
+	display: none;
+	}
+}
 
   .apply{
 	display: flex;
