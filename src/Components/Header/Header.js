@@ -35,6 +35,13 @@ const Header = () => {
                         </a>
                         <p className="line"></p>
                     </ul>
+                    <div className="apply">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/burmy/">
+                            <button className="btn" trailingIcon="picture_as_pdf" label="Apply">
+                                Register Now
+                            </button>
+                        </a>
+                    </div>
                 </div>
 
                 <div classname="hero-2">

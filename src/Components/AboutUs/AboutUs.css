@@ -1,29 +1,4 @@
-.headingText1 {
-    text-align: left;
-    font: normal normal bold 45px/74px "Montserrat";
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-  }
-  
-  .headingText2 {
-    text-align: left;
-    font: normal normal bold 30px/48px "Montserrat";
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-  }
-  .highlight {
-    background-color: #d7b5ff;
-  }
-  
-  .descriptionText {
-    text-align: center;
-    font: normal normal normal 17px/28px "Montserrat";
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-  }
+
   
   .profileName {
     text-align: center;
@@ -95,12 +70,11 @@
     margin: 0 auto;
     width: 650px;
     height: auto;
+    margin-top: -80px;
   }
-  
+ 
   .mission {
-    font: italic normal bold 40px/60px Open Sans;
-    letter-spacing: 0px;
-    opacity: 1;
+      font-size: 25px;
   }
   
   .container-1{

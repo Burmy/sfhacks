@@ -11,7 +11,6 @@ const Track = () => {
                 <div className="center project-card ">
                     <div className="center project-image">
                         <div className="img-wildifre">
-
                         </div>
                     </div>
                     <div className="center project-data">

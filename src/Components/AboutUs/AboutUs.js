@@ -81,7 +81,7 @@ const AboutUs = () => {
 
             >
                 <div
-                    className="heading-1"
+                    className="mp"
                     style={{
                         textAlign: "center",
                         color: "#FFFFFF"
@@ -175,7 +175,7 @@ const AboutUs = () => {
 
                 <div style={{ marginTop: 50 }}>
                     <div
-                        className="heading-3"
+                        className="mp"
                         style={{
                             // font: "italic normal bold 35px/45px Montserrat",
                             textAlign: "center",
@@ -226,11 +226,13 @@ const AboutUs = () => {
 
                 <div style={{ marginTop: 50 }}>
                     <div
-                        className="heading-3"
+                        className="mp past"
                         style={{
                             // font: "italic normal bold 35px/45px Montserrat",
                             textAlign: "center",
-                            color: "#FFFFFF"
+                            color: "#FFFFFF",
+
+
                         }}
                     >
                         <span>PAST STATS</span>
