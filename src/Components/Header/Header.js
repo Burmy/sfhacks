@@ -46,14 +46,13 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className="gradient">
-                </div>
 
+                <div className="gradient-1">
+                </div>
                 <div classname="hero-2">
                     <div className="hero-image">
                     </div>
                 </div>
-
             </div>
         </div>
     )

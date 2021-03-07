@@ -17,3 +17,17 @@
   width: 200px;
   height:200px;
 }
+.svg-top {
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: -1;
+}
+
+.waves{
+	background: url(/src/Components/Header/5e98a8e44a1b909f87b0b1b9_hero_landscape.svg);
+	width: 100%;
+	height: 35%;
+	position: absolute;
+	z-index: -1;
+	opacity: 0.2;
+}

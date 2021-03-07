@@ -238,14 +238,17 @@ h1 {
 		display: none;
 	}
   }
-.gradient{
+
+.gradient-1{
 	background: url(/src/Components/Header/gradient.png);
 	background-size: 100% 100%;
-  	width: 650px;
-  	height: 650px;
+  	width: 820px;
+  	height: 820px;
 	z-index: -1;
 	position: absolute;
-	margin-top: -370px;
+	margin-top: -190px;
+	margin-left: 590px;
+	transform: rotate(90deg);
 }
 .hero-image{
 	background: url(/src/Components/Header/hero.svg);
