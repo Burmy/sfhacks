@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.css'
+import './Hero.css'
 import { Icon } from '@iconify/react';
 import Link from '@iconify-icons/zmdi/linkedin';
 import Mail from '@iconify-icons/zmdi/email';
@@ -7,12 +7,12 @@ import discordIcon from '@iconify-icons/mdi/discord';
 
 import mailgo from "mailgo";
 
-const Header = () => {
+const Hero = () => {
     mailgo();
 
     return (
-        <div className="header" id="top">
-            <div className="header-box">
+        <div className="Hero" id="top">
+            <div className="Hero-box">
                 <div className="hero-1">
                     <h2>Welcome to</h2>
                     <div className="title">
@@ -65,5 +65,5 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Hero;
 

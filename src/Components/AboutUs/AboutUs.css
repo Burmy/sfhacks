@@ -170,7 +170,7 @@
   }
   
   .waves-3{
-    background: url(/src/Components/Header/waves.svg);
+    background: url(/src/Components/Hero/Hero-imgs/waves.svg);
     background-size: 100% 100%;
     margin-top: 250px;
     width: 100%;

@@ -58,7 +58,7 @@
 
 
 .img-education{
-  background: url(/src/Images/Online_education_SVG.svg);
+  background: url(/src/Components/Track/track-imgs/Online_education_SVG.svg);
   background-position: center;
   display: flex;
   align-items: flex-end;
@@ -69,7 +69,7 @@
   
 }
 .img-comm{
-  background: url(/src/Images/Chat_SVG.svg);
+  background: url(/src/Components/Track/track-imgs/Chat_SVG.svg);
   background-position: center;
   display: flex;
   align-items: flex-end;
@@ -79,7 +79,7 @@
   height: 450px;
 }
 .img-health{
-  background: url(/src/Images/fitness_SVG.svg);
+  background: url(/src/Components/Track/track-imgs/fitness_SVG.svg);
   background-position: center;
   display: flex;
   align-items: flex-end;
@@ -89,7 +89,7 @@
   height: 450px;
 }
 .img-home{
-  background: url(/src/Images/City_SVG.svg);
+  background: url(/src/Components/Track/track-imgs/City_SVG.svg);
   background-position: center;
   display: flex;
   align-items: flex-end;

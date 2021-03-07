@@ -1,5 +1,5 @@
 
-import Header from './Components/Header/Header'
+import Hero from './Components/Hero/Hero'
 import Track from './Components/Track/Track'
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header />
+      <Hero />
       <About />
       <Track />
       <FAQ />

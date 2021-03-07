@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-.header-box {
+.Hero-box {
 	 position: relative;
 	 display: flex;
 	 justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 /* @media only screen and (max-device-width: 1500px) {
-	.header-box{
+	.Hero-box{
 		margin-top: -20px;
 		margin-bottom: 30px;
 		 position: relative;
@@ -36,7 +36,7 @@ h1 {
 	-webkit-text-fill-color: transparent;
   }
   
-.header-box .title {
+.Hero-box .title {
 	 width: 71%;
 	 position: relative;
 	 display: flex;
@@ -44,7 +44,7 @@ h1 {
 	 height: 50px;
 }
 
-.header-box .title .block {
+.Hero-box .title .block {
 	 width: 0%;
 	 height: inherit;
 	 background: #F7CA17;
@@ -54,7 +54,7 @@ h1 {
 	 display: flex;
 }
 
-.header-box .title h1 {
+.Hero-box .title h1 {
 	 color: #EFEFEF;
 	 font-size: 75px;
 	 animation: mainFadeIn 1.2s forwards;
@@ -66,7 +66,7 @@ h1 {
 }
 
 @media only screen and (max-device-width: 550px) {
-	.header-box .title h1{
+	.Hero-box .title h1{
 		color: #EFEFEF;
 		font-size: 45px;
 		animation: mainFadeIn 1.2s forwards;
@@ -79,14 +79,14 @@ h1 {
 	}
   }
   @media only screen and (max-device-width: 550px) {
-	.header-box h2{
+	.Hero-box h2{
 		margin: 15px;
 		font-size: 22px;
 	}
   }
 
 
-.header-box .title h1 span {
+.Hero-box .title h1 span {
 	 width: 0px;
 	 height: 0px;
 	 border-radius: 50%;
@@ -239,7 +239,7 @@ h1 {
 	}
   }
   .gradient-2{
-	background: url(/src/Components/Header/gradient.png);
+	background: url(/src/Components/Hero/Hero-imgs/gradient.png);
 	background-size: 100% 100%;
   	width: 200px;
   	height: 1000px;
@@ -251,7 +251,7 @@ h1 {
 	opacity: 0.3;
 } 
 .gradient-1{
-	background: url(/src/Components/Header/gradient.png);
+	background: url(/src/Components/Hero/Hero-imgs/gradient.png);
 	background-size: 100% 100%;
   	width: 820px;
   	height: 820px;
@@ -262,7 +262,7 @@ h1 {
 	transform: rotate(90deg);
 }
 .hero-image{
-	background: url(/src/Components/Header/hero.svg);
+	background: url(/src/Components/Hero/Hero-imgs/hero.svg);
 	background-position: center;
 	background-size: 100% 100%;
   	width: 650px;
@@ -326,7 +326,7 @@ h1 {
 	}
 
 	.waves{
-		background: url(/src/Components/Header/waves.svg);
+		background: url(/src/Components/Hero/Hero-imgs/waves.svg);
 	  background-size: 100% 100%;
 		width: 100%;
 		height: 80%;

@@ -55,7 +55,7 @@
    }
 }
 .waves-2{
-    background: url(/src/Components/Header/waves.svg);
+    background: url(/src/Components/Hero/Hero-imgs/waves.svg);
     background-size: 100% 100%;
     width: 100%;
     height: 70%;
