@@ -5,9 +5,7 @@ const Track = () => {
     return (
         <div className="center projects">
             <div className="project-box">
-
-                <h2 className="center mp">TRACKS</h2>
-
+                <h2 className="center mp"><p className="line-title"></p>TRACKS<p className="line-title"></p></h2>
                 <div className="center project-card ">
                     <div className="center project-image">
                         <div className="img-wildifre">
@@ -20,7 +18,7 @@ const Track = () => {
                 </div>
 
 
-                <div className="center project-card ">
+                <div className="center proßject-card ">
 
                     <div className="center project-data-opp">
                         <h2 className="name-opp">COMMUNICATION</h2>

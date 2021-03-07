@@ -7,7 +7,7 @@ input {
 .col{
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 
 .tabs {

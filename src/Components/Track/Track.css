@@ -9,7 +9,6 @@
 .mp{
   margin: 60px;
   font-size: 36px;
-  text-decoration: underline;
   text-decoration-color: #F7CA17;
   text-decoration-thickness: 3.5px;
   margin-bottom: 80px;
@@ -124,3 +123,10 @@
   border-radius: 10px;
   text-align: center;
 }
+
+.line-title {
+	width: 35%;
+	height: 2px;
+  margin: 20px;
+	background:#F7CA17;
+  }

@@ -63,6 +63,7 @@
   .statCard {
     margin: 40px;
     width: 450px;
+    margin-bottom: -100px;
   }
   
   .numParticipants {
@@ -76,7 +77,10 @@
   .mission {
       font-size: 25px;
   }
-  
+  .mission-info{
+    font-size: 20px;
+    margin-top: -10px;
+  }
   .container-1{
     width: 100%;
   }

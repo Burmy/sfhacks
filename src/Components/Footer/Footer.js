@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-main-container">
-                    <p className="footer-text">Made by Anmol Burmy :)</p>
+                    <p className="footer-text">Made by <a href="https://burmy.me/">Anmol Burmy</a> :)</p>
                 </div>
             </div>
 

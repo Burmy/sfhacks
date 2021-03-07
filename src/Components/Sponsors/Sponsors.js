@@ -29,118 +29,120 @@ import WeightWatchers from '../Sponsors/sponsors-imgs/weight-watchers.png'
 
 const Sponsors = () => {
     return (
-        <div className="center sponsor">
-            <h2 className="center mp">OUR SPONSORS</h2>
-            <div className="slide-container">
-                <div className="slider-1">
-                    <div className="slide-track">
-                        <div className="slide">
-                            <img src={Adobe} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Autodesk} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Google} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={COSE} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Pathrise} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Guru} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Cahsi} height="100" width="200" alt="" />
-                        </div>
+        <div className="sponsor">
+            <h2 className="center mp"><p className="line-title"></p>SPONSORS<p className="line-title"></p></h2>
+            <div className="center">
+                <div className="slide-container">
+                    <div className="slider-1">
+                        <div className="slide-track">
+                            <div className="slide">
+                                <img src={Adobe} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Autodesk} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Google} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={COSE} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Pathrise} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Guru} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Cahsi} height="100" width="200" alt="" />
+                            </div>
 
 
+                        </div>
+                    </div>
+                    <div className="slider-2">
+                        <div className="slide-track">
+                            <div className="slide">
+                                <img src={Hyperx} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Microsoft} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Notivize} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Jetbrains} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Walmart} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={GCloud} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Twilio} height="100" width="200" alt="" />
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div className="slider-3">
+                        <div className="slide-track">
+                            <div className="slide">
+                                <img src={Wolfram} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Lyft} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={IBM} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Chipotle} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={WeightWatchers} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Echoar} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={csld} height="100" width="200" alt="" />
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div className="slider-4">
+                        <div className="slide-track">
+                            <div className="slide">
+                                <img src={Macys} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={COB} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Stream} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={StickerMule} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Macys} height="100" width="200" alt="" />
+                            </div>
+                            <div className="slide">
+                                <img src={Business} height="100" width="200" alt="" />
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div className="slider-2">
-                    <div className="slide-track">
-                        <div className="slide">
-                            <img src={Hyperx} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Microsoft} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Notivize} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Jetbrains} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Walmart} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={GCloud} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Twilio} height="100" width="200" alt="" />
-                        </div>
-
-
-                    </div>
-                </div>
-                <div className="slider-3">
-                    <div className="slide-track">
-                        <div className="slide">
-                            <img src={Wolfram} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Lyft} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={IBM} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Chipotle} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={WeightWatchers} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Echoar} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={csld} height="100" width="200" alt="" />
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div className="slider-4">
-                    <div className="slide-track">
-                        <div className="slide">
-                            <img src={Macys} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={COB} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Stream} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={StickerMule} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Macys} height="100" width="200" alt="" />
-                        </div>
-                        <div className="slide">
-                            <img src={Business} height="100" width="200" alt="" />
-                        </div>
-
-                    </div>
+                <div className="waves-2">
                 </div>
             </div>
-            <div className="waves-2">
-            </div>
-        </div>
+        </div >
     )
 }
 

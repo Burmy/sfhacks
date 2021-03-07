@@ -79,15 +79,7 @@ const AboutUs = () => {
                 className="container-1 background-img-1 "
 
             >
-                <div
-                    className="mp"
-                    style={{
-                        textAlign: "center",
-                        color: "#FFFFFF"
-                    }}
-                >
-                    <span>ABOUT US</span>
-                </div>
+                <h2 className="center mp"><p className="line-title"></p>ABOUT US<p className="line-title"></p></h2>
                 <div style={{ marginTop: 50 }}>
                     {/* <div className="headingText2">
           <span className="highlight">OUR MISSION</span>
@@ -115,11 +107,11 @@ const AboutUs = () => {
                         >
                             <div className="mission">OUR MISSION</div>
                             <br />
-              Our organization’s purpose is to plan and host California’s most
-              talented collegiate hackers, designers, and developers, to a
-              24-hour hackathon. We work towards giving students an environment
-              for maximum innovation, collaboration, and education.
-            </div>
+                            <p className="mission-info">Our organization’s purpose is to plan and host California’s most
+                            talented collegiate hackers, designers, and developers, to a
+                            24-hour hackathon. We work towards giving students an environment
+              for maximum innovation, collaboration, and education.</p>
+                        </div>
 
                         {/* Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
             hackathon and we can’t wait to produce a brand new experience for
@@ -173,16 +165,7 @@ const AboutUs = () => {
                 </div>
 
                 <div style={{ marginTop: 50 }}>
-                    <div
-                        className="mp"
-                        style={{
-                            // font: "italic normal bold 35px/45px Montserrat",
-                            textAlign: "center",
-                            color: "#FFFFFF"
-                        }}
-                    >
-                        <span>OUR TEAM</span>
-                    </div>
+                    <h2 className="center mp"><p className="line-title"></p>OUR TEAM<p className="line-title"></p></h2>
                     <div
                         style={{
                             marginTop: 30,
@@ -225,20 +208,7 @@ const AboutUs = () => {
                 </div>
 
                 <div style={{ marginTop: 50 }}>
-                    <div
-                        className="mp past"
-                        style={{
-                            // font: "italic normal bold 35px/45px Montserrat",
-                            textAlign: "center",
-                            color: "#FFFFFF",
-
-
-                        }}
-                    >
-                        <span>PAST STATS</span>
-                        <br />
-                        <br />
-                    </div>
+                    <h2 className="center mp"><p className="line-title"></p>PAST STATS<p className="line-title"></p><br /><br /></h2>
                     <div>
                         <img src={numParticipants} className="numParticipants" alt="" />
                     </div>

@@ -9,7 +9,7 @@
   align-items: center;
   text-decoration: none;
   margin-bottom: 15px;
-  margin-top: -110px;
+  margin-top: -200px;
 }
 
 a { text-decoration: none; }
@@ -148,4 +148,9 @@ a:hover, a:active { text-decoration: none; }
   .social-icons{
     width: 30px;
   }
+}
+
+a{
+  color: #F7CA17;
+  text-decoration: underline;
 }
