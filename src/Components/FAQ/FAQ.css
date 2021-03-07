@@ -11,7 +11,7 @@ input {
 }
 
 .tabs {
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow:   0 7px 30px -10px rgb(0, 0, 0); 
   width: 63%;
@@ -28,6 +28,7 @@ input {
   background: #88858546;
   font-weight: bold;
   cursor: pointer;
+  font-size: 17px;
 }
 .tab-label:hover {
   background: #1b1b1b;

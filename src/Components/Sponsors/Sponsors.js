@@ -138,7 +138,8 @@ const Sponsors = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="waves-2">
+            </div>
         </div>
     )
 }

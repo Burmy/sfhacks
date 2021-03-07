@@ -253,6 +253,8 @@ const AboutUs = () => {
                     >
                         <img className="statCard" src={schools} alt="" />
                         <img className="statCard" src={majors} alt="" />
+                        <div className="waves-3">
+                        </div>
                     </div>
                 </div>
             </div>

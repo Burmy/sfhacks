@@ -42,7 +42,7 @@ const Footer = () => {
             <div style={{ background: "#88858546", padding: '20px 0' }}>
 
                 <div className="footer-box">
-                    <AnchorLink href='#top'>
+                    <AnchorLink href='#Navbar'>
                         <btn className="arrow-up">
                             <span className="left-arm"></span>
                             <span className="right-arm"></span>

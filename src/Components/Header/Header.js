@@ -53,6 +53,9 @@ const Header = () => {
                 <div className="gradient-2">
                 </div>
 
+                <div className="waves">
+                </div>
+
                 <div classname="hero-2">
                     <div className="hero-image">
                     </div>
