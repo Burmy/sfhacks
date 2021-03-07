@@ -29,7 +29,7 @@ import WeightWatchers from '../Sponsors/sponsors-imgs/weight-watchers.png'
 
 const Sponsors = () => {
     return (
-        <div className="sponsor">
+        <div className="sponsor" id="Sponsor" >
             <h2 className="center mp"><p className="line-title"></p>SPONSORS<p className="line-title"></p></h2>
             <div className="center">
                 <div className="slide-container">

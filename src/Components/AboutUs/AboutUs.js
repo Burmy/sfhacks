@@ -74,16 +74,58 @@ const AboutUs = () => {
         }
     ];
     return (
-        <div className="parentContainer-1">
-            <div
-                className="container-1 background-img-1 "
+        <div className="AboutUs" id="AboutUs">
+            <div className="parentContainer-1">
+                <div
+                    className="container-1 background-img-1 "
 
-            >
-                <h2 className="center mp"><p className="line-title"></p>ABOUT US<p className="line-title"></p></h2>
-                <div style={{ marginTop: 50 }}>
-                    {/* <div className="headingText2">
+                >
+                    <h2 className="center mp"><p className="line-title"></p>ABOUT US<p className="line-title"></p></h2>
+                    <div style={{ marginTop: 50 }}>
+                        {/* <div className="headingText2">
           <span className="highlight">OUR MISSION</span>
         </div> */}
+                        <div
+                            style={{
+                                marginTop: 20,
+                                display: "flex",
+                                flexDirection: "row",
+                                flexWrap: "wrap",
+                                // justifyContent: "space-around",
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }}
+                        >
+                            <div
+                                id="mobileAboutCol"
+                                className="reg-2"
+                                style={{
+                                    width: 450,
+                                    // marginBottom: 20,
+                                    textAlign: "center",
+                                    color: "#FFFFFF"
+                                }}
+                            >
+                                <div className="mission">OUR MISSION</div>
+                                <br />
+                                <p className="mission-info">Our organization’s purpose is to plan and host California’s most
+                                talented collegiate hackers, designers, and developers, to a
+                                24-hour hackathon. We work towards giving students an environment
+              for maximum innovation, collaboration, and education.</p>
+                            </div>
+
+                            {/* Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
+            hackathon and we can’t wait to produce a brand new experience for
+            our hackers. The event will highlight the new ideologies we
+            developed through this pandemic. We believe that in times of chaos,
+            there is opportunity. Let’s develop programs, build applications,
+            and find solutions to change our society for the better. */}
+                            <div id="mobileAboutCol">
+                                <img src={aboutPicture} className="aboutPicture" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
                     <div
                         style={{
                             marginTop: 20,
@@ -95,48 +137,7 @@ const AboutUs = () => {
                             alignItems: "center"
                         }}
                     >
-                        <div
-                            id="mobileAboutCol"
-                            className="reg-2"
-                            style={{
-                                width: 450,
-                                // marginBottom: 20,
-                                textAlign: "center",
-                                color: "#FFFFFF"
-                            }}
-                        >
-                            <div className="mission">OUR MISSION</div>
-                            <br />
-                            <p className="mission-info">Our organization’s purpose is to plan and host California’s most
-                            talented collegiate hackers, designers, and developers, to a
-                            24-hour hackathon. We work towards giving students an environment
-              for maximum innovation, collaboration, and education.</p>
-                        </div>
-
-                        {/* Welcome to SF Hacks 2021: Life Hacks! This is our first virtual
-            hackathon and we can’t wait to produce a brand new experience for
-            our hackers. The event will highlight the new ideologies we
-            developed through this pandemic. We believe that in times of chaos,
-            there is opportunity. Let’s develop programs, build applications,
-            and find solutions to change our society for the better. */}
-                        <div id="mobileAboutCol">
-                            <img src={aboutPicture} className="aboutPicture" alt="" />
-                        </div>
-                    </div>
-                </div>
-
-                <div
-                    style={{
-                        marginTop: 20,
-                        display: "flex",
-                        flexDirection: "row",
-                        flexWrap: "wrap",
-                        // justifyContent: "space-around",
-                        justifyContent: "center",
-                        alignItems: "center"
-                    }}
-                >
-                    {/* <div>
+                        {/* <div>
           <img
             src={teamPic}
             id="mobileAboutCol" 
@@ -144,7 +145,7 @@ const AboutUs = () => {
             //style={{ height: 275, width: "auto", marginTop: 20 }}
           />
         </div> */}
-                    {/* <div
+                        {/* <div
           id="mobileAboutCol" 
           className="reg-2"
           style={{
@@ -162,68 +163,69 @@ const AboutUs = () => {
           hackathon. We work towards giving students an environment for maximum
           innovation, collaboration, and education.
         </div> */}
-                </div>
+                    </div>
 
-                <div style={{ marginTop: 50 }}>
-                    <h2 className="center mp"><p className="line-title"></p>OUR TEAM<p className="line-title"></p></h2>
-                    <div
-                        style={{
-                            marginTop: 30,
-                            display: "flex",
-                            justifyContent: "center"
-                        }}
-                    >
+                    <div style={{ marginTop: 50 }}>
+                        <h2 className="center mp"><p className="line-title"></p>OUR TEAM<p className="line-title"></p></h2>
                         <div
                             style={{
-                                maxWidth: 1000,
+                                marginTop: 30,
+                                display: "flex",
+                                justifyContent: "center"
+                            }}
+                        >
+                            <div
+                                style={{
+                                    maxWidth: 1000,
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    flexWrap: "wrap",
+                                    justifyContent: "center",
+                                    alignItems: "center"
+                                }}
+                            >
+                                {profiles.map(profile => (
+                                    <div
+                                        key={profile.name}
+                                        style={{ marginBottom: 20, margin: 20 }}
+                                    >
+                                        <div>
+                                            <img
+                                                src={profile.image}
+                                                style={{ height: 120, width: 120, borderRadius: 70 }}
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div
+                                            className="profileName"
+                                            style={{ marginTop: 6, color: "#FFFFFF" }}
+                                        >
+                                            {profile.name}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style={{ marginTop: 50 }}>
+                        <h2 className="center mp"><p className="line-title"></p>PAST STATS<p className="line-title"></p><br /><br /></h2>
+                        <div>
+                            <img src={numParticipants} className="numParticipants" alt="" />
+                        </div>
+                        <div
+                            style={{
                                 display: "flex",
                                 flexDirection: "row",
                                 flexWrap: "wrap",
                                 justifyContent: "center",
-                                alignItems: "center"
+                                alignItems: "center",
                             }}
                         >
-                            {profiles.map(profile => (
-                                <div
-                                    key={profile.name}
-                                    style={{ marginBottom: 20, margin: 20 }}
-                                >
-                                    <div>
-                                        <img
-                                            src={profile.image}
-                                            style={{ height: 120, width: 120, borderRadius: 70 }}
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div
-                                        className="profileName"
-                                        style={{ marginTop: 6, color: "#FFFFFF" }}
-                                    >
-                                        {profile.name}
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
-                <div style={{ marginTop: 50 }}>
-                    <h2 className="center mp"><p className="line-title"></p>PAST STATS<p className="line-title"></p><br /><br /></h2>
-                    <div>
-                        <img src={numParticipants} className="numParticipants" alt="" />
-                    </div>
-                    <div
-                        style={{
-                            display: "flex",
-                            flexDirection: "row",
-                            flexWrap: "wrap",
-                            justifyContent: "center",
-                            alignItems: "center",
-                        }}
-                    >
-                        <img className="statCard" src={schools} alt="" />
-                        <img className="statCard" src={majors} alt="" />
-                        <div className="waves-3">
+                            <img className="statCard" src={schools} alt="" />
+                            <img className="statCard" src={majors} alt="" />
+                            <div className="waves-3">
+                            </div>
                         </div>
                     </div>
                 </div>

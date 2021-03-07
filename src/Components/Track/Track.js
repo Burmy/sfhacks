@@ -3,7 +3,7 @@ import './Track.css'
 
 const Track = () => {
     return (
-        <div className="center projects">
+        <div className="projects center" id="Tracks" >
             <div className="project-box">
                 <h2 className="center mp"><p className="line-title"></p>TRACKS<p className="line-title"></p></h2>
                 <div className="center project-card ">
