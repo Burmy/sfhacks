@@ -15,7 +15,6 @@ import NyaProfileImage from "../AboutUs/About-imgs/Nya.png";
 import OrionProfileImage from "../AboutUs/About-imgs/Orion.png";
 import DenisProfileImage from "../AboutUs/About-imgs/Denis.png";
 import aboutPicture from "../AboutUs/About-imgs/about-pic.png";
-import teamPic from "../AboutUs/About-imgs/about-team-pic.png";
 
 import "../AboutUs/AboutUs.css";
 
@@ -129,7 +128,7 @@ const AboutUs = () => {
             there is opportunity. Let’s develop programs, build applications,
             and find solutions to change our society for the better. */}
                         <div id="mobileAboutCol">
-                            <img src={aboutPicture} className="aboutPicture" />
+                            <img src={aboutPicture} className="aboutPicture" alt="" />
                         </div>
                     </div>
                 </div>
@@ -210,6 +209,7 @@ const AboutUs = () => {
                                         <img
                                             src={profile.image}
                                             style={{ height: 120, width: 120, borderRadius: 70 }}
+                                            alt=""
                                         />
                                     </div>
                                     <div
@@ -240,7 +240,7 @@ const AboutUs = () => {
                         <br />
                     </div>
                     <div>
-                        <img src={numParticipants} className="numParticipants" />
+                        <img src={numParticipants} className="numParticipants" alt="" />
                     </div>
                     <div
                         style={{
@@ -251,8 +251,8 @@ const AboutUs = () => {
                             alignItems: "center",
                         }}
                     >
-                        <img className="statCard" src={schools} />
-                        <img className="statCard" src={majors} />
+                        <img className="statCard" src={schools} alt="" />
+                        <img className="statCard" src={majors} alt="" />
                     </div>
                 </div>
             </div>

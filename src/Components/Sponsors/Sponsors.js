@@ -30,7 +30,7 @@ import WeightWatchers from '../Sponsors/sponsors-imgs/weight-watchers.png'
 const Sponsors = () => {
     return (
         <div className="center sponsor">
-            <h1 className="center mp">OUR SPONSORS</h1>
+            <h2 className="center mp">OUR SPONSORS</h2>
             <div className="slider-1">
                 <div className="slide-track">
                     <div className="slide">

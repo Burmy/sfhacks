@@ -4,7 +4,7 @@ import './FAQ.css'
 const FAQ = () => {
     return (
         <div className="faq">
-            <h1 className="center mp">FAQs</h1>
+            <h2 className="center mp">FAQs</h2>
             <div className="col">
                 <div className="tabs">
                     <div className="tab">

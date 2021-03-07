@@ -1,11 +1,11 @@
 
 .bar{
-    display: flex;
-    color: #F7CA17;
-    position: inherit;
-    margin-top: 12px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  color: #F7CA17;
+  position: inherit;
+  margin-top: 12px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo{
