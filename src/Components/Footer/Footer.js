@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-main-container">
-                    <p className="footer-text">Made by <a target="_blank" rel="noopener noreferrer" href="https://burmy.me/"> Anmol Burmy
+                    <p className="footer-text">Made by <a className="port-text" target="_blank" rel="noopener noreferrer" href="https://burmy.me/"> Anmol Burmy
                     </a> :)</p>
                 </div>
             </div>
