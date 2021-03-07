@@ -93,7 +93,8 @@ const AboutUs = () => {
                                 flexWrap: "wrap",
                                 // justifyContent: "space-around",
                                 justifyContent: "center",
-                                alignItems: "center"
+                                alignItems: "center",
+                                marginBottom: -130
                             }}
                         >
                             <div
@@ -134,7 +135,7 @@ const AboutUs = () => {
                             flexWrap: "wrap",
                             // justifyContent: "space-around",
                             justifyContent: "center",
-                            alignItems: "center"
+                            alignItems: "center",
                         }}
                     >
                         {/* <div>
@@ -181,7 +182,8 @@ const AboutUs = () => {
                                     flexDirection: "row",
                                     flexWrap: "wrap",
                                     justifyContent: "center",
-                                    alignItems: "center"
+                                    alignItems: "center",
+                                    marginBottom: -130
                                 }}
                             >
                                 {profiles.map(profile => (

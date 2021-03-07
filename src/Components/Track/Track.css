@@ -1,23 +1,23 @@
 .project-box {
-	margin-top: 80px;
 	position: relative;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+  margin-bottom: -100px;
 }
 
-@media only screen and (max-device-width: 450px) {
+/* @media only screen and (max-device-width: 450px) {
 	.project-box{
-    margin-top: 80px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 370px;
 	}
-}
+} */
 
 .mp{
+  padding-top: 140px;
   margin: 60px;
   font-size: 36px;
   text-decoration-color: #F7CA17;

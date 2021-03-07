@@ -11,7 +11,7 @@ const Hero = () => {
     mailgo();
 
     return (
-        <div className="Hero" id="top">
+        <div className="Hero" id="#Navbar">
             <div className="Hero-box">
                 <div className="hero-1">
                     <h2>Welcome to</h2>
