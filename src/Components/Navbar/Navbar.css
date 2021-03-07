@@ -27,6 +27,7 @@
 @media only screen and (max-device-width: 800px) {
 	.svg-top{
 		margin-top: 40px;
+    width: 100%;
 	  }
   }
 .nav {
