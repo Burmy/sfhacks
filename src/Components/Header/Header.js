@@ -18,6 +18,7 @@ const Header = () => {
                     <div className="title">
 
                         <span className="block"></span>
+
                         <h1>SF HACKS<span></span></h1>
                     </div>
                     <h2>San Francisco's largest collegiate hackathon.</h2>
@@ -38,7 +39,7 @@ const Header = () => {
                         <p className="line"></p>
                     </ul>
                     <div className="apply">
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/burmy/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                             <button className="btn" trailingIcon="picture_as_pdf" label="Apply">
                                 Register Now
                             </button>
@@ -49,6 +50,9 @@ const Header = () => {
 
                 <div className="gradient-1">
                 </div>
+                <div className="gradient-2">
+                </div>
+
                 <div classname="hero-2">
                     <div className="hero-image">
                     </div>

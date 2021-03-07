@@ -238,7 +238,18 @@ h1 {
 		display: none;
 	}
   }
-
+  .gradient-2{
+	background: url(/src/Components/Header/gradient.png);
+	background-size: 100% 100%;
+  	width: 200px;
+  	height: 1000px;
+	z-index: -1;
+	position: absolute;
+	margin-top: -250px;
+	margin-right: 740px;
+	transform: rotate(269deg);
+	opacity: 0.3;
+} 
 .gradient-1{
 	background: url(/src/Components/Header/gradient.png);
 	background-size: 100% 100%;
