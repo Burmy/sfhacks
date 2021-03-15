@@ -33,7 +33,7 @@ function App() {
                 loading={loading}
                 size={30}
               />
-              <h2>LOADING!</h2>
+              <h2>Welcome to SF Hacks!</h2>
             </div>
 
             :
