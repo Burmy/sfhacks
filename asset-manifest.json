@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sfhacks/static/css/main.7ce03729.chunk.css",
-    "main.js": "/sfhacks/static/js/main.ebf463f5.chunk.js",
-    "main.js.map": "/sfhacks/static/js/main.ebf463f5.chunk.js.map",
+    "main.css": "/sfhacks/static/css/main.97614451.chunk.css",
+    "main.js": "/sfhacks/static/js/main.d088cf4c.chunk.js",
+    "main.js.map": "/sfhacks/static/js/main.d088cf4c.chunk.js.map",
     "runtime-main.js": "/sfhacks/static/js/runtime-main.7f1c1161.js",
     "runtime-main.js.map": "/sfhacks/static/js/runtime-main.7f1c1161.js.map",
     "static/js/2.8dd9bad5.chunk.js": "/sfhacks/static/js/2.8dd9bad5.chunk.js",
     "static/js/2.8dd9bad5.chunk.js.map": "/sfhacks/static/js/2.8dd9bad5.chunk.js.map",
     "index.html": "/sfhacks/index.html",
-    "static/css/main.7ce03729.chunk.css.map": "/sfhacks/static/css/main.7ce03729.chunk.css.map",
+    "static/css/main.97614451.chunk.css.map": "/sfhacks/static/css/main.97614451.chunk.css.map",
     "static/js/2.8dd9bad5.chunk.js.LICENSE.txt": "/sfhacks/static/js/2.8dd9bad5.chunk.js.LICENSE.txt",
     "static/media/Aman.b05617cf.png": "/sfhacks/static/media/Aman.b05617cf.png",
     "static/media/Brenda.7ea26a0f.png": "/sfhacks/static/media/Brenda.7ea26a0f.png",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.7f1c1161.js",
     "static/js/2.8dd9bad5.chunk.js",
-    "static/css/main.7ce03729.chunk.css",
-    "static/js/main.ebf463f5.chunk.js"
+    "static/css/main.97614451.chunk.css",
+    "static/js/main.d088cf4c.chunk.js"
   ]
 }
