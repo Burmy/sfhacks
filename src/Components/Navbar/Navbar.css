@@ -62,7 +62,7 @@
 nav li {
   color: #000000;
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-	font-size: 25px;
+	font-size: 24px;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
   width: 20vw;
