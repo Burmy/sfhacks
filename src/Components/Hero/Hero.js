@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="Hero" id="#Navbar">
             <div className="Hero-box">
                 <div className="hero-1">
-                    <h2>Welcome to</h2>
+                    <h2>This is</h2>
                     <div className="title">
 
                         <span className="block"></span>

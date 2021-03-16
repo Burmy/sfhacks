@@ -27,7 +27,8 @@
 	flex-direction: column;
 	justify-content: center;
 	padding-bottom: 50px;
-	padding-left: 30px;
+	text-align: center;
+	align-items: center;
 }
 h1 {
 	font-size: 72px;
@@ -189,6 +190,7 @@ h1 {
 	list-style-type: none;
 	justify-content: center;
 	width: 460px;
+	padding: 0;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -229,6 +231,10 @@ h1 {
 	cursor: pointer;
 }
 
+.icon1:hover, .icon2:hover, .icon3:hover {
+	color: #ffed9b;
+  }
+
 .line {
 	width: 150px;
 	height: 2px;
@@ -248,7 +254,7 @@ h1 {
 	z-index: -1;
 	position: absolute;
 	margin-top: -250px;
-	margin-right: 740px;
+	margin-right: 600px;
 	transform: rotate(269deg);
 	opacity: 0.3;
 } 
@@ -298,7 +304,6 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	font-size: 24px;
-	padding-right: 30px;
   }
   
   .btn {
